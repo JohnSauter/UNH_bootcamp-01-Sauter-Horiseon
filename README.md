@@ -4,12 +4,21 @@ Horiseon web site made accessible
 The week 1 assignment in the UNH coding bootcamp
 is to make the Horiseon web site more accessible.
 
-The web site contains a generic picture of people
-sitting around a table with a white board behind them.
-Below that is a box to select Search Engine Optimization,
-one for Online Reputation Management and one for
-Social Media Marketing.
+We begin with the HTML, CSS and image files provided 
+as a starting point for the exercise.
 
-We begin with the HTML, CSS and image files which
-make up the page.
+Fix the title and the ID for the SEO section.
+
+Add alt= to the images.  This is a little more
+complex for the image at the top of the page,
+since it is a background image.
+
+Improve the semantic structure by making
+the right column h2, just like the left column.
+This requires some changes to the CSS.
+
+Remove redundency in the CSS.
+
+Add notes about possible copyright infringement
+on the images.
 
