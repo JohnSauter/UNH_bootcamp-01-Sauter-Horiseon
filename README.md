@@ -20,5 +20,5 @@ https://johnsauter.github.io/UNH_bootcamp-01-Sauter-Horiseon/
 
 Here is a screen shot of the web site:
 
-![screenshot of the Horiseon web site](Horiseon.png)
+![screenshot of the Horiseon web site](assets/Horiseon.png)
 
