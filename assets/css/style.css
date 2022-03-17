@@ -1,13 +1,17 @@
+/* These attributes apply to all elements unless explicitly overridden.  */
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
 
+/* The body color is close to neutral gray.  */
 body {
     background-color: #d9dcd6;
 }
 
+/* The header uses white lettering on an unsaturated blue background.
+ * The font is sans-serif for readabllity.  */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,15 +19,23 @@ body {
     color: #ffffff;
 }
 
+/* The h1 is the name of the company, in large type.  */
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* Some of the letters of the company name are rendered as gray rather
+ * than white, to emphasize the "seo" in the company name.  This is
+ * problamatic for accessibility, but the customer has requested this,
+ * so leave it in.  */
 .header h1 .seo {
     color: #d9dcd6;
 }
 
+/* The links at the top of the page are show in smaller type than
+ * the company name, and in a slightly different but still sans-serif
+ * font.  */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -31,7 +43,7 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/* Display the links in an undecorated list, left to right.  */
 .header div ul {
     list-style-type: none;
 }
@@ -41,16 +53,18 @@ body {
     margin-left: 25px;
 }
 
+/* Links are white.  */
 a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* Paragraphs use relatively small print.  */
 p {
     font-size: 16px;
 }
 
-.hero { /* The large picture at the top of the page */
+.hero { /* the large picture at the top of the page */
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -59,22 +73,23 @@ p {
     background-position: center;
 }
 
-.float-left {
+.float-left { /* the left column of boxes */
     float: left;
     margin-right: 25px;
 }
 
-.float-right {
+.float-right { /* the right column of boxes */
     float: right;
     margin-left: 25px;
 }
 
-.content {
+.content { /* text within each box */
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
 
+/* attributes for the right column of boxes */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -102,6 +117,8 @@ p {
     max-width: 150px;
 }
 
+/* attributes for the left column of boxes */
+/* The background is a slightly darker blue than the right column.  */
 .left-column-box {
     margin-bottom: 20px;
     padding: 50px;
@@ -120,6 +137,10 @@ p {
     font-size: 36px;
 }
 
+/* The original HTML had a footer but the request from the customer does not.
+ * In the HTML I have commented out the footer rather than deleting it
+ * in case the customer changes his mind, and I will likewise leave these 
+ * css definitions here.  */
 .footer {
     padding: 30px;
     clear: both;

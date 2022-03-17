@@ -22,3 +22,5 @@ Remove redundency in the CSS.
 Add notes about possible copyright infringement
 on the images.
 
+Add comments to the css file.
+
