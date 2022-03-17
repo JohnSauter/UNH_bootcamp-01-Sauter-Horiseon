@@ -1,26 +1,24 @@
 # UNH_bootcamp-01-Sauter-Horiseon
-Horiseon web site made accessible
+The Horiseon web site, with improved accessibility.
+The title is improved and one broken link is fixed.
+The images have alternate textual identification.
+The semantic structure is improved.
 
-The week 1 assignment in the UNH coding bootcamp
-is to make the Horiseon web site more accessible.
+In addition to accessibility improvements the
+code is cleaner and has better comments, making
+future work more efficient.
 
-We begin with the HTML, CSS and image files provided 
-as a starting point for the exercise.
+It is not clear that Horiseon has the rights to
+the images on this web site.  I recommend research 
+into these images, and replacing them if necessary 
+to avoid copyright violations.  I can create
+unique images for the Horiseon web site which depict
+Horiseon's people and facilities.
 
-Fix the title and the ID for the SEO section.
+The updated web site is at this URL:
+https://johnsauter.github.io/UNH_bootcamp-01-Sauter-Horiseon/
 
-Add alt= to the images.  This is a little more
-complex for the image at the top of the page,
-since it is a background image.
+Here is a screen shot of the web site:
 
-Improve the semantic structure by making
-the right column h2, just like the left column.
-This requires some changes to the CSS.
-
-Remove redundency in the CSS.
-
-Add notes about possible copyright infringement
-on the images.
-
-Add comments to the css file.
+![screenshot of the Horiseon web site](Horiseon.png)
 
