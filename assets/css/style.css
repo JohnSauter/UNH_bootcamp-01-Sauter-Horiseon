@@ -12,7 +12,7 @@ body {
 
 /* The header uses white lettering on an unsaturated blue background.
  * The font is sans-serif for readabllity.  */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
@@ -20,7 +20,7 @@ body {
 }
 
 /* The h1 is the name of the company, in large type.  */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
@@ -29,14 +29,14 @@ body {
  * than white, to emphasize the "seo" in the company name.  This is
  * problamatic for accessibility, but the customer has requested this,
  * so leave it in.  */
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
 /* The links at the top of the page are show in smaller type than
  * the company name, and in a slightly different but still sans-serif
  * font.  */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -44,11 +44,11 @@ body {
     font-size: 20px;
 }
 /* Display the links in an undecorated list, left to right.  */
-.header div ul {
+header div ul {
     list-style-type: none;
 }
 
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -141,13 +141,13 @@ p {
  * In the HTML I have commented out the footer rather than deleting it
  * in case the customer changes his mind, and I will likewise leave these 
  * css definitions here.  */
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
 }
 
-.footer h2 {
+footer h2 {
     font-size: 20px;
 }
